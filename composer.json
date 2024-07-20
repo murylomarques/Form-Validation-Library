@@ -1,0 +1,16 @@
+{
+    "name": "seu-usuario/form-validation",
+    "description": "Uma biblioteca de validação de formulários em PHP.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "FormValidation\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    }
+}
